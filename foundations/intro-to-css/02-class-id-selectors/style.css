@@ -1,14 +1,21 @@
 .first{
     color:black;
-    background-color: red;
+    background-color: #f5695fe8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #second{
-    color: blue;
+    color: #00f;
+    font-size: 36px;
+}
+
+.first.dif{
+    font-size: 24px;
 }
 
 #fourth{
     color:black;
-    background-color: green;
+    background-color: #59f544;
     font-weight: bold;
+    font-size: 24px;
 }
