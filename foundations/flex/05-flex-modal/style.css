@@ -5,6 +5,7 @@ html, body {
 }
 
 body {
+  border: pink solid 4px;
   font-family: Roboto, sans-serif;
   margin: 0;
   background: #aaa;
@@ -16,6 +17,7 @@ body {
 }
 
 .modal {
+  border: black solid 3px;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -23,6 +25,7 @@ body {
 }
 
 .icon {
+  border: yellow solid 3px;
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -36,6 +39,7 @@ body {
 }
 
 .close-button {
+  border: orange solid 3px;
   background: #eee;
   border-radius: 50%;
   color: #888;
@@ -51,18 +55,21 @@ body {
 }
 
 button {
+  border: green solid 3px;
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
 }
 
 button.continue {
+  border: red solid 3px;
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
 }
 
 button.cancel {
+  border: purple solid 3px;
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
