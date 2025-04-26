@@ -16,12 +16,25 @@ body {
   justify-content: center;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.header{
+  font-weight: bold;
+}
+
 .modal {
   border: black solid 3px;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 25px;
+
 }
 
 .icon {
