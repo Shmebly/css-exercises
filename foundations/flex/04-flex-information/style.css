@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -27,14 +28,8 @@ img {
 .fruit {
   /* border: blue solid 3px; */
   width: 200px;
-
-
 }
 
-.text {
-  /* border: yellow solid 3px; */
-
-}
 
 /* do not edit this footer */
 .footer {
