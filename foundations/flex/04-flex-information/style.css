@@ -12,14 +12,18 @@ img {
   font-weight: 900;
   display: flex;
   justify-content: center;
+  margin-bottom: 32px;
 }
 
 .container {
   border: red solid 8px;
   display: flex;
-  
+  justify-content: center;
 }
 
+.text {
+  border: yellow solid 3px;
+}
 
 /* do not edit this footer */
 .footer {
