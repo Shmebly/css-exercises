@@ -19,10 +19,16 @@ img {
   border: red solid 8px;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.fruit {
+  border: blue solid 3px;
 }
 
 .text {
   border: yellow solid 3px;
+  display: flex;
 }
 
 /* do not edit this footer */
