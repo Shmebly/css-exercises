@@ -16,19 +16,24 @@ img {
 }
 
 .container {
-  border: red solid 8px;
+  /* border: red solid 8px; */
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 52px;
+  
 }
 
 .fruit {
-  border: blue solid 3px;
+  /* border: blue solid 3px; */
+  width: 200px;
+
+
 }
 
 .text {
-  border: yellow solid 3px;
-  display: flex;
+  /* border: yellow solid 3px; */
+
 }
 
 /* do not edit this footer */
