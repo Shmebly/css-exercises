@@ -14,8 +14,8 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   border: black solid 5px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 8px;
   padding: 8px;
 }
 
@@ -25,7 +25,6 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
-  border: orange solid 3px;
 }
 
 .logo {
@@ -33,7 +32,6 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-  border: solid red 2px;
 }
 
 button {
@@ -42,25 +40,26 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
-  border: solid green 3px;
-  display: flex;
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
-  border: solid yellow 2px;
-  display: flex;
 }
 
 ul {
   list-style-type: none;
   border: brown solid 2px;
+  display: flex; 
+  padding: 0px;
+  gap: 16px;
+  margin: 0px;
 }
 
 .left, .right{
   display: flex;
-  border: red solid 15px;
-
+  border: red solid 2px;
+  align-items: center;
+  gap: 16px;
 }
