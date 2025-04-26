@@ -15,6 +15,8 @@ body {
   border: black solid 5px;
   display: flex;
   align-items: center;
+  gap: 8px;
+  padding: 8px;
 }
 
 .profile-image {
@@ -41,6 +43,7 @@ button {
   color: white;
   padding: 8px 24px;
   border: solid green 3px;
+  display: flex;
 }
 
 a {
@@ -48,9 +51,16 @@ a {
   text-decoration: none;
   color: rebeccapurple;
   border: solid yellow 2px;
+  display: flex;
 }
 
 ul {
   list-style-type: none;
   border: brown solid 2px;
+}
+
+.left, .right{
+  display: flex;
+  border: red solid 15px;
+
 }
