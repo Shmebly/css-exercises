@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+* {
+  outline: 1px solid black;
+}
+
 body {
-  border: red solid 2px;
   height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -30,17 +33,35 @@ input {
   width: 400px;
 }
 
-.header a {
-  border: red solid 3px;
+.header {
   display: flex;
-  text-decoration: none;
+  justify-content: space-between;
+  width: 100%;
 }
 
-.footer a{
-  border: red solid 3px;
-  text-decoration: none;
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 ul {
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 15px; 
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
 }
