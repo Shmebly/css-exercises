@@ -1,3 +1,7 @@
+* {
+  border: black solid 1px;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
@@ -32,17 +36,17 @@ body {
   background: royalblue;
   box-sizing: border-box;
   display: flex;
-  flex-grow: 1;
+  /* flex-grow: 1; */
   flex-shrink: 0;
   padding: 16px;
-  
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-
+  width: 300px;
+  gap: 15px;
 }
 
 a{
@@ -53,4 +57,14 @@ a{
 
 ul {
   list-style-type: none;
+}
+
+.container {
+  display; flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.main {
+  display: flex;
 }
