@@ -30,11 +30,17 @@ input {
   width: 400px;
 }
 
-.header {
+.header a {
   border: red solid 3px;
   display: flex;
+  text-decoration: none;
 }
 
-.footer {
+.footer a{
   border: red solid 3px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
 }
