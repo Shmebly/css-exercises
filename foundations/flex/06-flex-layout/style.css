@@ -41,7 +41,7 @@ input {
   width: 100%;
   padding-right: 40px;
 }
-
+  /* can combine the two to save space ^  */
 .footer {
   display: flex;
   width: 100%;
@@ -62,7 +62,7 @@ a {
   display: flex;
   gap: 15px; 
 }
-
+/* can have ^ be on ul */
 .content {
   display: flex;
   flex-direction: column;
