@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
-  outline: 1px solid black;
+  /* outline: 1px solid black; */
 }
 
 body {
@@ -24,6 +24,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
@@ -37,12 +38,15 @@ input {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding-right: 40px;
 }
 
 .footer {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  background-color: #eeeeee;
+  padding-right: 40px;
 }
 
 ul {
@@ -64,4 +68,12 @@ a {
   justify-content: center;
   align-items: center;
   flex: 1;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 7px;
 }
